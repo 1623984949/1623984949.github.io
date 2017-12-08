@@ -40,7 +40,7 @@ body {
 
 /* .s1*/
 
-.s1 {
+.s1,.s2 {
     background: url("../img/bj.png");
     height: 100%;
 }
@@ -126,3 +126,7 @@ body {
     position: absolute;
     left: -80px;
 }
+
+
+/*--- s2 ---*/
+
