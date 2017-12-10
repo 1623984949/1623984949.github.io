@@ -1,3 +1,8 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 html, body {
     position: relative;
     height: 100%;
@@ -40,7 +45,7 @@ body {
 
 /* .s1*/
 
-.s1,.s2 {
+.s1,.s2{
     background: url("../img/bj.png");
     height: 100%;
 }
@@ -101,7 +106,7 @@ body {
 
 
 
-.s1 .footer{
+.s1 .footer,.s2 .footer{
     position: absolute;
     left: 0;
     width: 100%;
@@ -121,7 +126,7 @@ body {
     height: 70px;
     position: absolute;
 }
-.s1 .footer img{
+.s1 .footer img,.s2 .footer img{
     height: 70px;
     position: absolute;
     left: -80px;
@@ -129,4 +134,58 @@ body {
 
 
 /*--- s2 ---*/
+.s2{
+    color: #00d7b2;
+}
+.s2 h2{
+    padding-top: 60px;
+}
+.s2 h2::before{
+    content: '';
+    background: url("../img/14.png");
+    background-size: cover;
+    width: 83px;
+    height: 20px;
+    display: inline-block;
+    margin-right: 20px;
+}
+.s2 h2::after{
+    content: '';
+    background: url("../img/13.png");
+    background-size: cover;
+    width: 83px;
+    height: 20px;
+    display: inline-block;
+    margin-left: 20px;
+}
+.s2 small{
+    letter-spacing:5px;
+    font-size: 10px;
+}
+.s2 .main{
+    background: url("../img/12.png");
+    background-size: 100% 100%;
+    width: 90%;
+    margin: auto;
+    padding: 20px;
+    margin-top: 20px;
+}
+.s2 .main p{
+    font-size: 15px;
+    text-align: left;
+    line-height: 2em;
+}
+.s2 span{
+    display: block;
+    width: 32.4%;
+    position: absolute;
+    left: 50%;
+    margin-left: -16.2%;
+    margin-top: 5px;
+    background: linear-gradient(to right,#00e7f9,#80fa96);
+    color: #08001d;
+    font-weight: 800;
+    border-radius: 12px;
+    text-align: center;
+}
 
