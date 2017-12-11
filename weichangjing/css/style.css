@@ -58,29 +58,34 @@ body {
     width: 35px;
     top: 120px;
     left: 50px;
+    animation-iteration-count:infinite;
 }
 
 .s1 .header img:nth-of-type(2){
     width: 65px;
     top: 90px;
     right: 40px;
+    animation-iteration-count:infinite;
 }
 
 .s1 .header img:nth-of-type(3){
     width: 55px;
     left: 35px;
     bottom: 180px;
+    animation-iteration-count:infinite;
 }
 .s1 .header img:nth-of-type(4){
     width: 50px;
     right: 50px;
     bottom: 210px;
+    animation-iteration-count:infinite;
 }
 .s1 .header img:nth-of-type(5){
     left: 50%;
     top: 25%;
     width: 60%;
     margin-left: -30%;
+    animation-iteration-count:infinite; /* 一直轮播 */
 }
 
 
@@ -125,11 +130,13 @@ body {
 .s1 .footer p:nth-of-type(2){
     height: 70px;
     position: absolute;
+    animation-iteration-count:infinite;
 }
 .s1 .footer img,.s2 .footer img{
     height: 70px;
     position: absolute;
     left: -80px;
+    animation-iteration-count:infinite;
 }
 
 
