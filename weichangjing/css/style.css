@@ -140,7 +140,6 @@ body {
 }
 
 
-
 .s1 .footer,.s2 .footer{
     position: absolute;
     left: 0;
@@ -185,6 +184,18 @@ body {
     height: 20px;
     display: inline-block;
     margin-right: 20px;
+    animation: s2before 3s linear infinite;
+}
+@keyframes s2before {
+    0%{
+        margin-right: 10px;
+    }
+    50%{
+        margin-right: 30px;
+    }
+    100%{
+        margin-right: 10px;
+    }
 }
 .s2 h2::after{
     content: '';
@@ -194,6 +205,18 @@ body {
     height: 20px;
     display: inline-block;
     margin-left: 20px;
+    animation: s2after 3s linear infinite;
+}
+@keyframes s2after {
+    0%{
+        margin-left:10px;
+    }
+    50%{
+        margin-left:30px;
+    }
+    100%{
+        margin-left:10px;
+    }
 }
 .s2 small{
     letter-spacing:5px;
@@ -206,6 +229,27 @@ body {
     margin: auto;
     padding: 20px;
     margin-top: 20px;
+    animation:s2main 3s linear infinite;
+}
+@keyframes s2main {
+    0%{
+        margin-left: 20px;
+    }
+    20%{
+        margin-left: 21px;
+    }
+    40%{
+        margin-left: 22px;
+    }
+    60%{
+        margin-left: 22px;
+    }
+    80%{
+        margin-left: 21px;
+    }
+    100%{
+        margin-left: 20px;
+    }
 }
 .s2 .main p{
     font-size: 15px;
