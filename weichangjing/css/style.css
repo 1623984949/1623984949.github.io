@@ -511,7 +511,7 @@ body {
 .s4 .main .text2 #text2img1{
     position: absolute;
     top:15%;
-    left: 80%;
+    left: 82%;
     letter-spacing: 1px;
 }
 .s4 .main .text2 .text2img2{
@@ -524,7 +524,7 @@ body {
 .s4 .main .text2 #text2img2{
     position: absolute;
     top:20%;
-    left: 53%;
+    left: 54%;
     letter-spacing: 1px;
 }
 
@@ -553,7 +553,7 @@ body {
 .s4 .main .text3 #text3img1{
     position: absolute;
     top: 32%;
-    left: 72%;
+    left: 73%;
     letter-spacing: 1px;
 }
 .s4 .main .text3 .text3img2{
@@ -566,7 +566,7 @@ body {
 .s4 .main .text3 #text3img2{
     position: absolute;
     top: 37%;
-    left: 49%;
+    left: 50%;
     letter-spacing: 1px;
 }
 
@@ -595,7 +595,7 @@ body {
 .s4 .main .text4 #text4img1{
     position: absolute;
     top: 48%;
-    left: 68%;
+    left: 69%;
     letter-spacing: 1px;
 }
 .s4 .main .text4 .text4img2{
@@ -608,7 +608,7 @@ body {
 .s4 .main .text4 #text4img2{
     position: absolute;
     top: 53%;
-    left: 38%;
+    left: 39%;
     letter-spacing: 1px;
 }
 
@@ -758,6 +758,69 @@ body {
 /*--- s6 ---*/
 .s6{
     color: #00d7b2;
+}
+.s6 .main .text1{
+    position: absolute;
+    top: 23%;
+    left: 15%;
+    width: 80%;
+}
+.s6 .main h3{
+    background: url("../img/s6img2-3.png");
+    background-size: 100% 100%;
+    color: #000;
+    text-align: left;
+    padding-left: 15px;
+    margin-bottom:5px;
+}
+.s6 .main p{
+    text-align: left;
+    font-size: 14px;
+    color: #97ffed;
+}
+.s6 .main .text2{
+    position: absolute;
+    top: 43%;
+    left: 15%;
+    width: 80%;
+}
+.s6 .main .text3{
+    position: absolute;
+    top: 63%;
+    left: 15%;
+    width: 80%;
+}
+/*--text1div背景--*/
+.s6 .main .text1div{
+    background: rgba(3, 50, 68, 0.8);
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.s6 .main #xuxian{
+    position: absolute;
+    left: 8%;
+    top: 22%;
+    z-index: 3;
+}
+
+.s6 .main .text4png3 img:nth-of-type(1){
+     position: absolute;
+     top: 21%;
+     left: 2%;
+     width: 45px;
+ }
+.s6 .main .text4png3 img:nth-of-type(2){
+    position: absolute;
+    top: 41%;
+    left: 2%;
+    width: 45px;
+}
+.s6 .main .text4png3 img:nth-of-type(3){
+    position: absolute;
+    top: 61%;
+    left: 2%;
+    width: 45px;
 }
 /*--- s7 ---*/
 .s7{
