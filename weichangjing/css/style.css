@@ -826,5 +826,55 @@ body {
 .s7{
     color: #00d7b2;
 }
+.s7 .s7big{
+    position: absolute;
+    width: 80%;
+    top: 25%;
+    left: 10%;
+    margin-left: 10px;
+}
+.s7 .main .mainul .mainul1{
+    width: 64%;
+    padding: 10px 10px;
+    position: absolute;
+    top: 30%;
+    left: 20%;
+}
+.s7 .main .mainul .mainul2{
+    width: 64%;
+    padding: 10px 10px;
+    position: absolute;
+    top: 40%;
+    left: 20%;
+}
+.s7 .main .mainul .mainul3{
+    width: 64%;
+    padding: 10px 10px;
+    position: absolute;
+    top: 50%;
+    left: 20%;
+}
+.s7 .main .mainul .mainul4{
+    width: 64%;
+    padding: 10px 10px;
+    position: absolute;
+    top: 60%;
+    left: 20%;
+    background: #00d7b2;
+    color: #fff;
+}
+.s7 .s7p1{
+    position: absolute;
+    bottom: 28%;
+    left: 24%;
+    font-size: 16px;
+}
+.s7 .s7p2{
+    position: absolute;
+    bottom: 25%;
+    left: 24%;
+    font-size: 16px;
+}
+
 
 
