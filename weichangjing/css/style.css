@@ -440,54 +440,47 @@ body {
     color: #00d7b2;
 }
 .s4 .main{
-    position: relative;
-}
-.s4 .main1{
     position: absolute;
-    width: 80%;
-    left: 50%;
-    margin-left: -40%;
 }
-.s4 .main1 img{
-    /*width: 70%;*/
+.s4 .main img:nth-of-type(1){
+    width: 90%;
+    opacity: 0.5;
 }
-.s4 .main > img:nth-of-type(1){
-    width: 80%;
-    margin-top: 5%;
+.s4 .main .text1 img:nth-of-type(1){
     position: absolute;
-    left: 50%;
-    margin-left: -40%;
-}
-.s4 .text1 img:nth-of-type(1){
+    top: 1%;
+    left: 22%;
     width: 30px;
-    position: absolute;
-    top: 70%;
-    left: 15%;
 }
-.s4 .text1 img:nth-of-type(2){
+.s4 .main .text1 a:nth-of-type(1){
+    position: absolute;
+    top: 1.5%;
+    left: 30%;
+    color: #00d7b2;
+    text-decoration: none;
+}
+.s4 .main .text1 img:nth-of-type(2){
+    position: absolute;
+    top: 1%;
+    left: 52%;
     width: 30px;
-    position: absolute;
-    top:70%;
-    right: 37%;
 }
-.s4 .text1 a:nth-of-type(1){
+.s4 .main .text1 a:nth-of-type(2){
     position: absolute;
-    top: 70%;
-    left: 25%;
+    top: 1.5%;
+    color: #00c2ff;
+    left: 60%;
+    text-decoration: none;
 }
-.s4 .text1a{
-    position: absolute;
-    top:70%;
-    left: 63%;
-    color: #00baff;
-}
-.s4 .text2 img:nth-of-type(1){
+.s4 .main .text2 p .text2jt{
     width: 20px;
+    display: inline-block;
     position: absolute;
-    top: 28%;
-    left: 14%;
+    top: 10%;
+    left: 3%;
     animation: s4text2jt 1s ease alternate infinite;
 }
+
 @keyframes s4text2jt {
     0%{
         left: 14%;
@@ -495,6 +488,12 @@ body {
     100%{
         left: 16%;
     }
+}
+.s4 .main .text2 p h4{
+    position: absolute;
+    top:10%;
+    left: 8%;
+    display: inline-block;
 }
 
 
