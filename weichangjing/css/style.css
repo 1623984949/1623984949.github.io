@@ -208,7 +208,7 @@ body {
 }
 
 
-.s1 .footer,.s2 .footer,.s3 .footer{
+.s1 .footer,.s2 .footer,.s3 .footer,.s4 .footer{
     position: absolute;
     left: 0;
     width: 100%;
@@ -229,7 +229,7 @@ body {
     position: absolute;
     animation-iteration-count:infinite;
 }
-.s1 .footer img,.s2 .footer img,.s3 .footer img{
+.s1 .footer img,.s2 .footer img,.s3 .footer img ,.s4 .footer img{
     height: 70px;
     position: absolute;
     left: -80px;
@@ -472,12 +472,17 @@ body {
     left: 60%;
     text-decoration: none;
 }
+
+
+
+
 .s4 .main .text2 p .text2jt{
     width: 20px;
     display: inline-block;
     position: absolute;
     top: 10%;
     left: 3%;
+    opacity: 1;
     animation: s4text2jt 1s ease alternate infinite;
 }
 
@@ -489,11 +494,131 @@ body {
         left: 16%;
     }
 }
-.s4 .main .text2 p h4{
+
+.s4 .main .text2 h4{
     position: absolute;
-    top:10%;
-    left: 8%;
+    top: 9.5%;
+    left: 23%;
     display: inline-block;
+}
+.s4 .main .text2 .text2img1{
+    width: 210px;
+    height: 15px;
+    position: absolute;
+    top:15%;
+    left: 23%;
+}
+.s4 .main .text2 #text2img1{
+    position: absolute;
+    top:15%;
+    left: 80%;
+    letter-spacing: 1px;
+}
+.s4 .main .text2 .text2img2{
+    width: 105px;
+    height: 16px;
+    position: absolute;
+    top: 20%;
+    left: 23%;;
+}
+.s4 .main .text2 #text2img2{
+    position: absolute;
+    top:20%;
+    left: 53%;
+    letter-spacing: 1px;
+}
+
+.s4 .main .text3 p .text3jt{
+    width: 20px;
+    display: inline-block;
+    position: absolute;
+    top: 27%;
+    left: 3%;
+    opacity: 1;
+    animation: s4text2jt 1s ease alternate infinite;
+}
+.s4 .main .text3 h4{
+    position: absolute;
+    top: 26.5%;
+    left: 23%;
+    display: inline-block;
+}
+.s4 .main .text3 .text3img1{
+    width: 179px;
+    height: 15px;
+    position: absolute;
+    top: 32%;
+    left: 23%;
+}
+.s4 .main .text3 #text3img1{
+    position: absolute;
+    top: 32%;
+    left: 72%;
+    letter-spacing: 1px;
+}
+.s4 .main .text3 .text3img2{
+    width: 93px;
+    height: 16px;
+    position: absolute;
+    top: 37%;
+    left: 23%;;
+}
+.s4 .main .text3 #text3img2{
+    position: absolute;
+    top: 37%;
+    left: 49%;
+    letter-spacing: 1px;
+}
+
+.s4 .main .text4 p .text4jt{
+    width: 20px;
+    display: inline-block;
+    position: absolute;
+    top: 43%;
+    left: 3%;
+    opacity: 1;
+    animation: s4text2jt 1s ease alternate infinite;
+}
+.s4 .main .text4 h4{
+    position: absolute;
+    top: 42.5%;
+    left: 23%;
+    display: inline-block;
+}
+.s4 .main .text4 .text4img1{
+    width: 163px;
+    height: 15px;
+    position: absolute;
+    top: 48%;
+    left: 23%;
+}
+.s4 .main .text4 #text4img1{
+    position: absolute;
+    top: 48%;
+    left: 68%;
+    letter-spacing: 1px;
+}
+.s4 .main .text4 .text4img2{
+    width: 50px;
+    height: 16px;
+    position: absolute;
+    top: 53%;
+    left: 23%;
+}
+.s4 .main .text4 #text4img2{
+    position: absolute;
+    top: 53%;
+    left: 38%;
+    letter-spacing: 1px;
+}
+
+.s4 .main .text5 p{
+    position: absolute;
+    bottom:20%;
+    width: 80%;
+    font-size: 16px;
+    left: 10%;
+
 }
 
 
