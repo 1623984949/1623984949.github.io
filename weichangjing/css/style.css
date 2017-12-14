@@ -62,15 +62,15 @@ body {
 
 
 /*  背景 */
-.s1,.s2,.s3,.s4{
+.s1,.s2,.s3,.s4,.s5,.s6,.s7{
     background: url("../img/bj.png");
     height: 100%;
 }
 /*--- h2 samll通用样式 ---*/
-.s2 h2,.s3 h2,.s4 h2{
+.s2 h2,.s3 h2,.s4 h2,.s5 h2,.s6 h2,.s7 h2{
     padding-top: 60px;
 }
-.s2 h2::before,.s3 h2::before,.s4 h2::before{
+.s2 h2::before,.s3 h2::before,.s4 h2::before,.s5 h2::before,.s6 h2::before,.s7 h2::before{
     content: '';
     background: url("../img/14.png");
     background-size: cover;
@@ -91,7 +91,7 @@ body {
         margin-right: 10px;
     }
 }
-.s2 h2::after,.s3 h2::after,.s4 h2::after{
+.s2 h2::after,.s3 h2::after,.s4 h2::after,.s5 h2::after,.s6 h2::after,.s7 h2::after{
     content: '';
     background: url("../img/13.png");
     background-size: cover;
@@ -112,7 +112,7 @@ body {
         margin-left:10px;
     }
 }
-.s2 small,.s3 small,.s4 small{
+.s2 small,.s3 small,.s4 small,.s5 small,.s6 small,.s7 small{
     letter-spacing:5px;
     font-size: 10px;
 }
@@ -208,7 +208,7 @@ body {
 }
 
 
-.s1 .footer,.s2 .footer,.s3 .footer,.s4 .footer{
+.s1 .footer,.s2 .footer,.s3 .footer,.s4 .footer,.s5 .footer,.s6 .footer,.s7 .footer{
     position: absolute;
     left: 0;
     width: 100%;
@@ -229,7 +229,7 @@ body {
     position: absolute;
     animation-iteration-count:infinite;
 }
-.s1 .footer img,.s2 .footer img,.s3 .footer img ,.s4 .footer img{
+.s1 .footer img,.s2 .footer img,.s3 .footer img ,.s4 .footer img,.s5 .footer img,.s6 .footer img,.s7 .footer img{
     height: 70px;
     position: absolute;
     left: -80px;
@@ -621,5 +621,147 @@ body {
 
 }
 
+
+
+
+/*--- s5 ---*/
+.s5{
+    color: #00d7b2;
+}
+.s5 .main .x img:nth-of-type(1){
+    position: absolute;
+    top: 21%;
+    left: 10%;
+    width: 35%;
+}
+.s5 .main .x img:nth-of-type(2){
+    position: absolute;
+    top: 21%;
+    left: 10%;
+    width: 35%;
+}
+.s5 .main .x small{
+    position: absolute;
+    top: 38%;
+    left: 10%;
+    width: 35%;
+    letter-spacing: 1px;
+}
+.s5 .main .x h4{
+    position: absolute;
+    top: 41%;
+    left: 15%;
+    width: 24%;
+    display: inline-block;
+    letter-spacing: 1px;
+    color: #000;
+    background: linear-gradient(to right,#00e7f9,#80fa96);
+    border-radius: 20%;
+}
+
+.s5 .main .y img:nth-of-type(1){
+    position: absolute;
+    top: 21%;
+    right: 10%;
+    width: 35%;
+}
+.s5 .main .y img:nth-of-type(2){
+    position: absolute;
+    top: 21%;
+    right: 10%;
+    width: 35%;
+}
+.s5 .main .y small{
+    position: absolute;
+    top: 38%;
+    right: 10%;
+    width: 35%;
+    letter-spacing: 1px;
+}
+.s5 .main .y h4{
+    position: absolute;
+    top: 41%;
+    right: 15%;
+    width: 24%;
+    display: inline-block;
+    letter-spacing: 1px;
+    color: #000;
+    background: linear-gradient(to right,#00e7f9,#80fa96);
+    border-radius: 20%;
+}
+
+
+.s5 .main .l img:nth-of-type(1){
+    position: absolute;
+    bottom: 21%;
+    left: 10%;
+    width: 35%;
+}
+.s5 .main .l img:nth-of-type(2){
+    position: absolute;
+    bottom: 27%;
+    left: 10%;
+    width: 35%;
+}
+.s5 .main .l small{
+    position: absolute;
+    bottom: 26%;
+    left: 10%;
+    width: 35%;
+    letter-spacing: 1px;
+}
+.s5 .main .l h4{
+    position: absolute;
+    bottom: 22%;
+    left: 15%;
+    width: 24%;
+    display: inline-block;
+    letter-spacing: 1px;
+    color: #000;
+    background: linear-gradient(to right,#00e7f9,#80fa96);
+    border-radius: 20%;
+}
+
+
+.s5 .main .c img:nth-of-type(1){
+    position: absolute;
+    bottom: 21%;
+    right: 10%;
+    width: 35%;
+}
+.s5 .main .c img:nth-of-type(2){
+    position: absolute;
+    bottom: 27%;
+    right: 10%;
+    width: 35%;
+}
+.s5 .main .c small{
+    position: absolute;
+    bottom: 26%;
+    right: 10%;
+    width: 35%;
+    letter-spacing: 1px;
+}
+.s5 .main .c h4{
+    position: absolute;
+    bottom: 22%;
+    right: 15%;
+    width: 24%;
+    display: inline-block;
+    letter-spacing: 1px;
+    color: #000;
+    background: linear-gradient(to right,#00e7f9,#80fa96);
+    border-radius: 20%;
+}
+
+
+/*--- s6 ---*/
+.s6{
+    color: #00d7b2;
+}
+/*--- s7 ---*/
+.s7{
+    color: #00d7b2;
+}
 
 
