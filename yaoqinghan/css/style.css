@@ -158,3 +158,33 @@ body {
 .s2 .text img:nth-of-type(1){
     width: 80%;
 }
+.s2 .text h3{
+    color: #f4ba3e;
+}
+.s2 .text h3:nth-of-type(1){
+    position: absolute;
+    top:20%;
+    left: 15%;
+}
+.s2 .text h3:nth-of-type(2){
+    position: absolute;
+    top:20%;
+    right: 15%;
+}
+.s2 .text .textp{
+    width: 80%;
+    position: absolute;
+    top: 25%;
+    left:10%;
+    line-height: 1.5em;
+}
+.s2 .text .textp p{
+    color: rgba(251, 214, 134, 0.74);
+    font-size: 12px;
+}
+.s2 .textimg{
+    position: absolute;
+    bottom: 10%;
+    left: 10%;
+    width: 80%;
+}
