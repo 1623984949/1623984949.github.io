@@ -43,7 +43,42 @@ body {
     background: rgba(253, 214, 0, 0.64);
 }
 
-
+/*-- 背景 --*/
+.s2,.s3{
+    background: url("../img/big4_02.png");
+    background-size: 100% 100%;
+    height: 100%;
+    width: 100%;
+}
+.s2 .lamp,.s3 .lamp{
+    position: absolute;
+    width: 85%;
+    left: 5%;
+    top: -5%;
+}
+/*-- 标题 --*/
+.s2 .main h1,.s3 .main h1{
+    color: #f4ba3e;
+    margin-top: 15%;
+}
+.s2 .main img:nth-of-type(1),.s3 .main img:nth-of-type(1){
+    width: 70%;
+    position: absolute;
+    top: 8.5%;
+    left: 18%;
+}
+.s2 .main img:nth-of-type(2),.s3 .main img:nth-of-type(2){
+    width: 10%;
+    position: absolute;
+    top: 10.5%;
+    left: 19%;
+}
+.s2 .main img:nth-of-type(3),.s3 .main img:nth-of-type(3){
+    width: 10%;
+    position: absolute;
+    top: 10.5%;
+    left: 71%;
+}
 
 /*--- s1 ---*/
 .s1{
@@ -121,40 +156,6 @@ body {
 
 
 /*--- s2 ---*/
-.s2{
-    background: url("../img/big4_02.png");
-    background-size: 100% 100%;
-    height: 100%;
-    width: 100%;
-}
-.s2 .lamp{
-    position: absolute;
-    width: 85%;
-    left: 5%;
-    top: -5%;
-}
-.s2 .main h1{
-    color: #f4ba3e;
-    margin-top: 15%;
-}
-.s2 .main img:nth-of-type(1){
-    width: 70%;
-    position: absolute;
-    top: 8.5%;
-    left: 18%;
-}
-.s2 .main img:nth-of-type(2){
-    width: 10%;
-    position: absolute;
-    top: 10.5%;
-    left: 19%;
-}
-.s2 .main img:nth-of-type(3){
-    width: 10%;
-    position: absolute;
-    top: 10.5%;
-    left: 71%;
-}
 .s2 .text img:nth-of-type(1){
     width: 80%;
 }
