@@ -44,42 +44,45 @@ body {
 }
 
 /*-- 背景 --*/
-.s2,.s3{
+.s2,.s3,.s4{
     background: url("../img/big4_02.png");
     background-size: 100% 100%;
     height: 100%;
     width: 100%;
 }
-.s2 .lamp,.s3 .lamp{
+.s2 .lamp,.s3 .lamp,.s4 .lamp{
     position: absolute;
     width: 85%;
     left: 5%;
     top: -5%;
 }
 /*-- 标题 --*/
-.s2 .main h1,.s3 .main h1{
+.s2 .main h1,.s3 .main h1,.s4 .main h1{
     color: #f4ba3e;
     margin-top: 15%;
 }
-.s2 .main img:nth-of-type(1),.s3 .main img:nth-of-type(1){
+.s2 .main img:nth-of-type(1),.s3 .main img:nth-of-type(1),.s4 .main img:nth-of-type(1){
     width: 70%;
     position: absolute;
     top: 8.5%;
     left: 18%;
 }
-.s2 .main img:nth-of-type(2),.s3 .main img:nth-of-type(2){
+.s2 .main img:nth-of-type(2),.s3 .main img:nth-of-type(2),.s4 .main img:nth-of-type(2){
     width: 10%;
     position: absolute;
     top: 10.5%;
     left: 19%;
 }
-.s2 .main img:nth-of-type(3),.s3 .main img:nth-of-type(3){
+.s2 .main img:nth-of-type(3),.s3 .main img:nth-of-type(3),.s4 .main img:nth-of-type(3){
     width: 10%;
     position: absolute;
     top: 10.5%;
     left: 71%;
 }
 
+.swiper-pagination-bullet {
+    background: #fff;
+}
 /*--- s1 ---*/
 .s1{
     height: 100%;
@@ -189,3 +192,24 @@ body {
     left: 10%;
     width: 80%;
 }
+
+
+/*--- s3 ---*/
+.s3 .text ul{
+    position: absolute;
+    top:30%;
+    left: 10%;
+    color: #f4ba3e;
+    list-style: none;
+}
+.s3 .text ul li{
+    text-align: left;
+    line-height: 2em;
+}
+.s3 .text ul li small{
+    font-size: 14px;
+    color: #ffd8d8;;
+    text-align: right;
+}
+
+/*--- s4 ---*/
