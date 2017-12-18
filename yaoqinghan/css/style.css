@@ -57,23 +57,23 @@ body {
     top: -5%;
 }
 /*-- 标题 --*/
-.s2 .main h1,.s3 .main h1,.s4 .main h1{
+.s2 .main h1,.s3 .main h1,.s4 .main h1,.s5 .main h1{
     color: #f4ba3e;
     margin-top: 15%;
 }
-.s2 .main img:nth-of-type(1),.s3 .main img:nth-of-type(1),.s4 .main img:nth-of-type(1){
+.s2 .main img:nth-of-type(1),.s3 .main img:nth-of-type(1),.s4 .main img:nth-of-type(1),.s5 .main img:nth-of-type(1){
     width: 70%;
     position: absolute;
     top: 8.5%;
     left: 18%;
 }
-.s2 .main img:nth-of-type(2),.s3 .main img:nth-of-type(2),.s4 .main img:nth-of-type(2){
+.s2 .main img:nth-of-type(2),.s3 .main img:nth-of-type(2),.s4 .main img:nth-of-type(2),.s5 .main img:nth-of-type(2){
     width: 10%;
     position: absolute;
     top: 10.5%;
     left: 19%;
 }
-.s2 .main img:nth-of-type(3),.s3 .main img:nth-of-type(3),.s4 .main img:nth-of-type(3){
+.s2 .main img:nth-of-type(3),.s3 .main img:nth-of-type(3),.s4 .main img:nth-of-type(3),.s5 .main img:nth-of-type(3){
     width: 10%;
     position: absolute;
     top: 10.5%;
@@ -217,34 +217,91 @@ body {
     position: absolute;
     top:20%;
     left: 10%;
-    height: 60%;
+    height: 50%;
     width: 60%;
 }
 .s4 .hot img:nth-of-type(2){
     position: absolute;
     top:25%;
     right: 20%;
-    height: 60%;
+    height: 50%;
     width: 60%;
 }
 .s4 .hot img:nth-of-type(3){
     position: absolute;
     top:30%;
     left: 30%;
-    height: 60%;
+    height: 50%;
     width: 60%;
 }
 .s4 .hot img:nth-of-type(4){
     position: absolute;
     top:35%;
     left: 20%;
-    height: 60%;
+    height: 50%;
     width: 60%;
 }
 .s4 .hot img:nth-of-type(5){
     position: absolute;
     top:40%;
     left: 13%;
-    height: 60%;
+    height: 50%;
     width: 60%;
+}
+
+/*--- s5 ---*/
+.s5{
+    color: #ffbf45;
+}
+.s5 .s7big{
+    position: absolute;
+    width: 80%;
+    top: 25%;
+    left: 10%;
+    margin-left: 10px;
+}
+.s5 .main .mainul .mainul1{
+    width: 64%;
+    padding: 10px 10px;
+    position: absolute;
+    top: 30%;
+    left: 20%;
+}
+.s5 .main .mainul .mainul2{
+    width: 64%;
+    padding: 10px 10px;
+    position: absolute;
+    top: 40%;
+    left: 20%;
+}
+.s5 .main .mainul .mainul3{
+    width: 64%;
+    padding: 10px 10px;
+    position: absolute;
+    top: 50%;
+    left: 20%;
+}
+.s5 .main .mainul .mainul4{
+    width: 64%;
+    padding: 10px 10px;
+    position: absolute;
+    top: 60%;
+    left: 20%;
+    background: #7b7b7b;
+    color: #fff;
+}
+.s5 .s7p1{
+    position: absolute;
+    bottom: 28%;
+    left: 24%;
+    font-size: 16px;
+}
+.s5 .s7p2{
+    position: absolute;
+    bottom: 25%;
+    left: 24%;
+    font-size: 16px;
+}
+.s5 ul{
+    list-style: none;
 }
