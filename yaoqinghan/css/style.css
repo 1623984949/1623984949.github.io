@@ -43,6 +43,35 @@ body {
     background: rgba(253, 214, 0, 0.64);
 }
 
+
+
+/* 背景音乐 */
+#mp3btn{
+    position: absolute;
+    top:5%;
+    right: 5%;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    z-index: 100;
+    text-align: center;
+    line-height: 37px;
+    background: rgba(117, 117, 117, 0.58);
+    border: 5px rgba(175, 175, 175, 0.3) solid;
+    animation: mp3key 2s linear infinite;
+}
+#mp3btn img{
+    width: 14px;
+}
+@keyframes mp3key {
+    0%{
+        transform: rotateZ(0deg);
+    }
+    100%{
+        transform: rotateZ(360deg);
+    }
+}
+
 /*-- 背景 --*/
 .s2,.s3,.s4,.s5{
     background: url("../img/big4_02.png");
