@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>企业网站</title>
+    <script>
+        function checkName(){/*----键盘按下事件-----*/
+            var a=document.getElementById("name").value;
+            if (a=="") {
+                document.getElementById("nameSpan").innerHTML="<span>姓名不能为空</span>";
+            }else if (a.length<4) {
+                document.getElementById("nameSpan").innerHTML="<span>姓名不能少于四位</span>";
+            }else if (a.length<10) {
+                document.getElementById("nameSpan").innerHTML="<img src='img/close.jpg'/>";
+            }else{
+                document.getElementById("nameSpan").innerHTML="<span>姓名太长</span>";
+            }
+        }
+        function checkAge(){/*----失去焦点事件------*/
+            var a=document.getElementById("age").value;
+            if (a=="") {
+                document.getElementById("ageSpan").innerHTML="<span>年龄不能为空</span>";
+            }else if (a>18 && a<50) {
+                document.getElementById("ageSpan").innerHTML="<span>年龄符合</span>";
+            }else if (isNaN(a)){
+                document.getElementById("ageSpan").innerHTML="<span>年龄不能为字符串</span>";
+            }else if (a.length>2){
+                document.getElementById("ageSpan").innerHTML="<span>年龄不符合</span>";
+            }
+            else{
+                document.getElementById("ageSpan").innerHTML="<span>年龄不符合</span>";
+            }
+        }
+        function checkIdCard(){
+            var a=document.getElementById("idCard").value;
+            var b=/(^\d{15}$)|(^\d{17}(\d|X)$)/;
+            if (b.test(a)){/*----b验证a的格式------*/
+                document.getElementById("idCardSpan").innerHTML="<span>身份证号符合</span>";
+            }else{
+                document.getElementById("idCardSpan").innerHTML="<span>身份证号不正确</span>"
+            }
+        }
+        function checkPhoneNum(){
+            var a=document.getElementById("phoneNum").value;
+            var c=/^1\d{10}$/;
+            if (c.test(a)){
+                document.getElementById("phoneNumSpan").innerHTML="<span>手机号符合</span>";
+            }else{
+                document.getElementById("phoneNumSpan").innerHTML="<span>手机号不符合</span>";
+            }
+        }
+        function checkEmail(){
+            var a=document.getElementById("email").value;
+            var b=/^([a-zA-Z0-9_-])+@([a-zA-Z0-9_-])+(.[a-zA-Z0-9_-])+/;
+            if (b.test(a)){
+                document.getElementById("emailSpan").innerHTML="<span>邮箱符合</span>"
+            }else{
+                document.getElementById("emailSpan").innerHTML="<span>邮箱不符合</span>"
+            }
+        }
+        function checkPwd(){
+            var a=document.getElementById("pwd").value;
+            if (a==""){
+                document.getElementById("pwdSpan").innerHTML="<span>密码不能为空</span>"
+            }else if (a.length<6) {
+                document.getElementById("pwdSpan").innerHTML="<span>密码不能少于六位</span>"
+            }else if (!isNaN(a)) {
+                document.getElementById("pwdSpan").innerHTML="<span>密码不能为纯数字</span>"
+            }else{
+                document.getElementById("pwdSpan").innerHTML="<span>密码符合</span>"
+            }
+        }
+        function checkPwd2(){
+            var a=document.getElementById("pwd").value;
+            var b=document.getElementById("pwd2").value;
+            if (a!=b) {
+                document.getElementById("pwd2Span").innerHTML="<span>两次输入密码不一致</span>"
+            }else{
+                document.getElementById("pwd2Span").innerHTML="<span>密码正确</span>"
+            }
+        }
+    </script>
+    <style>
+        body{
+            background: url("img/register.jpg");
+            background-size: cover;
+        }
+        h1{
+            color: #00dfb9;
+            text-align: center;
+            font-size: 50px;
+        }
+        .register-p{
+            font-size: 25px;
+            letter-spacing: 3px;
+
+            padding: 0;
+            text-align: center;
+            color: #555555;
+            margin: 30px;
+        }
+        fieldset{
+            width: 400px;
+            margin: 0px auto;
+            color: #000;
+        }
+        label{
+            width: 100px;
+            float: left;
+            text-align: right;
+            font-family: 幼圆;
+
+        }
+        input{
+            outline:none;
+            border: 1px solid #999;
+            padding: 5px;
+            background: transparent;
+        }
+        input::-webkit-input-placeholder{
+            background: transparent;
+        }
+        input[type="submit"]{
+            margin-right: 8px;
+        }
+        input[type="submit"],input[type="reset"]{
+            width: 100px;
+            height: 40px;
+            background-color: #adadad;
+            border-radius: 7px;
+            font-family: 隶书;
+            font-size: 18px;
+            color: #ffffff;
+        }
+        span{
+            font-size: 12px;
+            color: red;
+            margin-left: 5px;
+        }
+    </style>
+</head>
+<body>
+<h1> REGISTER</h1>
+<p class="register-p">为了我们更好地交流</p>
+<form action="#" method="post">
+    <fieldset>
+        <legend>注册信息</legend><!------表单验证框架-->
+        <p><label for="">姓名：</label>
+            <input type="text" id="name" onkeyup="checkName()" placeholder="请输入正确姓名">
+            <span id="nameSpan">*必填</span></p><!------span:显示后面提示信息-->
+
+        <p><label for="">性别：</label>
+            <input type="radio" name="sex">男<input type="radio" name="sex">女</p>
+
+        <p><label for="">年龄：</label>
+            <input type="text" id="age" onblur="checkAge()">
+            <span id="ageSpan"></span></p>
+
+        <p><label for="">身份证号：</label>
+            <input type="text" id="idCard" onkeyup="checkIdCard()">
+            <span id="idCardSpan"></span></p>
+
+        <p><label for="">手机号：</label>
+            <input type="text" id="phoneNum" onkeyup="checkPhoneNum()">
+            <span id="phoneNumSpan"></span></p>
+
+        <p><label for="">密码：</label>
+            <input type="password" id="pwd" onkeyup="checkPwd()">
+            <span id="pwdSpan"></span></p>
+
+        <p><label for="">确认密码：</label>
+            <input type="password" id="pwd2" onkeyup="checkPwd2()">
+            <span id="pwd2Span"></span></p>
+
+        <p><label for="">邮箱：</label>
+            <input type="text" id="email" onkeyup="checkEmail()">
+            <span id="emailSpan"></span></p>
+
+        <p align="center"><input type="submit"><input type="reset"></p>
+    </fieldset>
+</form>
+</body>
+</html>
